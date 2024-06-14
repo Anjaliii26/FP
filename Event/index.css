@@ -1,0 +1,192 @@
+.herooo {
+    background-image: url("./job_lead_3clm_01\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; 
+    min-height: 100vh; 
+  }
+  
+  footer {
+    background-color: transparent; 
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: white;
+    padding-left: 60px;
+  }
+  
+  .header-nav {
+    display: flex;
+  }
+  
+  .nav-item {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    padding-right: 50px;
+  }
+  
+  .nav-item:hover {
+    background-color: #ddd;
+  }
+  
+  /* .nav-item:first-child {
+    color: green;
+  } */
+  
+  .text {
+    margin-top: 10px;
+    padding-left: 60px;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 900px;
+  }
+  
+  .text-3 {
+    width: 600px;
+    padding-left: 60px;
+    font-size: 20px;
+    margin-top: 120px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding-left: 60px;
+    margin-bottom: 50px;
+  }
+  
+  .Hire-me-btn {
+    padding-left: 60px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 50px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .Lets-talk-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 50px;
+    border: 1px solid green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .foot {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+  }
+  /* background-color: rgb(24, 23, 60); */
+  
+  .foot-2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  ul {
+    margin-top: 20px;
+  }
+  
+  ul p {
+    font-weight: 700;
+  }
+  
+  ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+  }
+  
+  .conference-date {
+    margin: 200px;
+  
+    margin-top: 10px;
+  }
+  
+  .conference-date p {
+    font-size: 18px;
+    color: #fff; 
+    font-weight: bold;
+  }
+  .conference-date p2{
+    font-size: 18px;
+    color: #fff; 
+    font-weight: bold;
+    margin-top: 2px;
+  }
+  
+  
+  .contact-info {
+    color: white;
+   
+    margin: top 2px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .text {
+      width: auto;
+      padding-left: 20px;
+      font-size: 30px;
+    }
+  
+    .text-3 {
+      width: auto;
+      padding-left: 20px;
+      font-size: 16px;
+      margin-top: 50px;
+    }
+  
+    .button {
+      padding-left: 20px;
+    }
+  
+    .Hire-me-btn,
+    .Lets-talk-btn {
+      padding: 10px 15px;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+  
+    .conference-date {
+      margin: 50px;
+      margin-top: 10px;
+    }
+  
+    .conference-date p,
+    .conference-date p2 {
+      font-size: 14px;
+      margin-top: 2px;
+    }
+  
+    .contact-info {
+      margin-top: 10px;
+    }
+  }
+  
+  
+  

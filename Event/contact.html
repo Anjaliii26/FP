@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Conact Us Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <style>
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+  
+}
+
+h1 {
+  color: #f6f6f6; 
+  margin: 0; 
+}
+
+.header-nav {
+  display: flex;
+}
+
+.nav-item {
+  font-weight: bold;
+  color: #ffffff; 
+  text-decoration: none;
+  padding: 5px 10px;
+  padding-right: 50px;
+}
+
+.nav-item:hover {
+  background-color: #a09595;
+}
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("./istockphoto-1458164457-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 50%;
+  height: 400px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.details i{
+  font-size: 30px;
+  color: #321e68;
+  margin-bottom: 10px;
+}
+.topic{
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  font-weight: bold;
+}
+.text-one,.text-two{
+  font-size: 14px;
+  color: #1c1c1e;
+}
+.right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.topic-text{
+  font-size: 30px;
+  font-weight: 800;
+  color: #3e2093;
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+.input-box{
+  height: 50px;
+  width: 400px;
+  margin: 12px 0;
+}
+.input-box input,.input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #2a1f49;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: hsl(256, 28%, 41%);
+}
+</style>
+<header>
+  <div class="header-text">
+      <h1>ANj</h1>
+  </div>
+  <div class="header-nav">
+      <a href="/event.html">
+          <div class="nav-item">HOME</div>
+      </a>
+        
+          <a href="/speaker.html">
+          <div class="nav-item">SPEAKER</div>
+      </a>
+          <a href="/schedule.html">
+          <div class="nav-item">SCHEDULE</div>
+      </a>
+         
+          <a href="/contact.html">
+          <div class="nav-item">CONTACT</div>
+      </a>
+  </div>
+</header>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Mumbai</div>
+          <div class="text-two">Maharashtra</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+026 1123 5647</div>
+          <div class="text-two">+91 233434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">coco@gmail.com</div>
+          <div class="text-two">info.conf@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+            <textarea placeholder="Enter your message"></textarea>
+          </div>
+          
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
